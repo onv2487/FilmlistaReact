@@ -1,0 +1,39 @@
+form {
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #movies {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .movie-item {
+    background-color: lightgreen;
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px #999;
+    position: relative;
+  }
+  
+  .star-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .star-icon.faded {
+    opacity: 0.2;
+  }
+  
+  .delete-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .delete-movie-icon {
+    cursor: pointer;
+  }
+  
